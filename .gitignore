@@ -1,0 +1,15 @@
+# IDE
+.idea
+
+# Rope project settings
+
+
+# Virtual environment
+venv
+
+# Packages
+__pycache__
+
+
+# Linux
+.pyc

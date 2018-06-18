@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Bamboo{% endblock %}
+
+{% block page_content %}
+    <div class="container">
+        <h1 class="page-header">
+            Hello World
+            {{ username }}
+        </h1>
+        <a href="{{ url_for('main.login')}}">
+            <button class="btn btn-default">login</button>
+        </a>
+    </div>
+{% endblock %}

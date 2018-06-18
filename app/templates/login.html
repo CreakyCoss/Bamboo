@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Bamboo{% endblock %}
+
+{% block page_content %}
+    <div class="container">
+        <div class="page-header">
+            login
+        </div>
+        <div>
+            {{ wtf.quick_form(form) }}
+        </div>
+    </div>
+{% endblock %}
